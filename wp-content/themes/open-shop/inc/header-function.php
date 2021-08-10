@@ -398,7 +398,7 @@ if( $description || is_customize_preview() ):?>
 function open_shop_product_search_box(){ ?>             
 <div id='search-box' class="wow thmkfadeInDown" data-wow-duration="1s">
 <form action='<?php echo esc_url( home_url( '/'  ) ); ?>' id='search-form' class="woocommerce-product-search" method='get' target='_top'>
-   <input id='search-text' name='s' placeholder='<?php echo esc_attr(get_theme_mod('search_box_text',esc_attr_x( 'Search for Product', 'placeholder', 'open-shop' ))); ?>' class="form-control search-autocomplete" value='<?php echo get_search_query(); ?>' type='text' title='<?php echo esc_attr_x( 'Search for:', 'label', 'open-shop' ); ?>' />
+   <input id='search-text' name='s' placeholder='<?php echo esc_attr(get_theme_mod('search_box_text',esc_attr_x( 'Buscar Producto', 'placeholder', 'open-shop' ))); ?>' class="form-control search-autocomplete" value='<?php echo get_search_query(); ?>' type='text' title='<?php echo esc_attr_x( 'Search for:', 'label', 'open-shop' ); ?>' />
    <div class="vert-brd" ></div>
    <?php 
 if ( class_exists( 'WooCommerce' ) ):
@@ -407,7 +407,7 @@ $args = array(
    'name' => 'product_cat',
    'value_field' => 'slug',
    'class' => 'something',
-   'show_option_all'   => __('All Category','open-shop'),
+   'show_option_all'   => __('Todas las Categorias','open-shop'),
 );
 wp_dropdown_categories( $args );
 endif;

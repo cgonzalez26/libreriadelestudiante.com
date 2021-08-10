@@ -381,9 +381,9 @@ echo esc_html(get_theme_mod('open_shop_footer_bottom_col1_texthtml'));
               ?>
               <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
             <span class="powered-by-wordpress">
-              <span><?php _e( 'Powered by', 'open-shop' ); ?></span>
-              <a href="<?php echo esc_url( __( 'https://themehunk.com/', 'open-shop' ) ); ?>">
-                <?php _e( 'Themehunk WordPress Theme', 'open-shop' ); ?>
+              <span><?php _e( 'Desarrollado por', 'open-shop' ); ?></span>
+              <a href="mailto:crisgonzalez26@gmail.com">
+                <?php _e( 'crisgonzalez26@gmail.com', 'open-shop' ); ?>
               </a>
             </span>
             </p><!-- .footer-copyright -->
