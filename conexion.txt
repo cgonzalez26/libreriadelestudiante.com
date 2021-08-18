@@ -4,3 +4,6 @@ user:administrador
 pw:lib#864430
 
 color sitio: #9ec23e
+
+user2: pamegf84
+pw: pamegf84
