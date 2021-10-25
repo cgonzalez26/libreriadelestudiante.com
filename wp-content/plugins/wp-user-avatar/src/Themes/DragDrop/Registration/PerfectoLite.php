@@ -75,7 +75,7 @@ class PerfectoLite extends AbstractTheme
     public function default_metabox_settings()
     {
         $data                                                = parent::default_metabox_settings();
-        $data['perfectolite_registration_headline']          = esc_html__('Create an Account', 'wp-user-avatar');
+        $data['perfectolite_registration_headline']          = esc_html__('Crear una Cuenta', 'wp-user-avatar');
         $data['perfectolite_registration_bg_color']          = '#ffffff';
         $data['perfectolite_registration_border']            = '#f0f0f0';
         $data['perfectolite_registration_text_color']        = '#555555';

@@ -7,3 +7,6 @@ color sitio: #9ec23e
 
 user2: pamegf84
 pw: pamegf84
+
+user3: emilio26
+pw: 12345

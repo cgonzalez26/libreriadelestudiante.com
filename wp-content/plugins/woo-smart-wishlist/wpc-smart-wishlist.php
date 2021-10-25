@@ -276,17 +276,17 @@ if ( ! function_exists( 'woosw_init' ) ) {
 								$return['status'] = 1;
 
 								if ( count( $products ) > 0 ) {
-									$return['notice'] = esc_html__( 'Removed from wishlist!', 'woo-smart-wishlist' );
+									$return['notice'] = esc_html__( 'Eliminado de la Lista de Deseos!', 'woo-smart-wishlist' );
 								} else {
-									$return['notice'] = esc_html__( 'There are no products on the wishlist!', 'woo-smart-wishlist' );
+									$return['notice'] = esc_html__( 'No hay Productos en la Lista de Deseos!', 'woo-smart-wishlist' );
 								}
 							} else {
-								$return['notice'] = esc_html__( 'The product does not exist on the wishlist!', 'woo-smart-wishlist' );
+								$return['notice'] = esc_html__( 'El Producto no existe en la Lista de Deseos!', 'woo-smart-wishlist' );
 							}
 						}
 					} else {
 						$product_id       = 0;
-						$return['notice'] = esc_html__( 'Have an error, please try again!', 'woo-smart-wishlist' );
+						$return['notice'] = esc_html__( 'Hubo un error, por favor intente de nuevo!', 'woo-smart-wishlist' );
 					}
 
 					do_action( 'woosw_remove', $product_id );
@@ -1137,7 +1137,7 @@ if ( ! function_exists( 'woosw_init' ) ) {
 
                                 <td class="woosw-content-item--actions">
                                     <div class="woosw-content-item--stock">
-										<?php echo( $product->is_in_stock() ? esc_html__( 'In stock', 'woo-smart-wishlist' ) : esc_html__( 'Out of stock', 'woo-smart-wishlist' ) ); ?>
+										<?php echo( $product->is_in_stock() ? esc_html__( 'En stock', 'woo-smart-wishlist' ) : esc_html__( 'Agotado', 'woo-smart-wishlist' ) ); ?>
                                     </div>
 
                                     <div class="woosw-content-item--add">
@@ -1156,7 +1156,7 @@ if ( ! function_exists( 'woosw_init' ) ) {
 						echo '</table>';
 					} else { ?>
                         <div class="woosw-content-mid-notice">
-							<?php esc_html_e( 'There are no products on the wishlist!', 'woo-smart-wishlist' ); ?>
+							<?php esc_html_e( 'No hay Productos en la Lista de Deseos!', 'woo-smart-wishlist' ); ?>
                         </div>
 					<?php }
 
@@ -1209,7 +1209,7 @@ if ( ! function_exists( 'woosw_init' ) ) {
                         <div class="woosw-inner">
                             <div class="woosw-content">
                                 <div class="woosw-content-top">
-									<?php esc_html_e( 'Wishlist', 'woo-smart-wishlist' ); ?> <span
+									<?php esc_html_e( 'Lista de Deseos', 'woo-smart-wishlist' ); ?> <span
                                             class="woosw-count"><?php echo count( self::$added_products ); ?></span>
                                     <span class="woosw-close"></span>
                                 </div>
@@ -1217,11 +1217,11 @@ if ( ! function_exists( 'woosw_init' ) ) {
                                 <div class="woosw-content-bot">
                                     <div class="woosw-content-bot-inner">
 								<span class="woosw-page">
-									<a href="<?php echo self::get_url( self::get_key() ); ?>"><?php esc_html_e( 'Open wishlist page', 'woo-smart-wishlist' ); ?></a>
+									<a href="<?php echo self::get_url( self::get_key() ); ?>"><?php esc_html_e( 'Abrir Página Lista de Deseos', 'woo-smart-wishlist' ); ?></a>
 								</span>
                                         <span class="woosw-continue"
                                               data-url="<?php echo get_option( 'woosw_continue_url' ); ?>">
-									<?php esc_html_e( 'Continue shopping', 'woo-smart-wishlist' ); ?>
+									<?php esc_html_e( 'Continuar comprando', 'woo-smart-wishlist' ); ?>
 								</span>
                                     </div>
                                     <div class="woosw-notice"></div>

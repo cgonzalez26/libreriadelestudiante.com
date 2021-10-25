@@ -448,7 +448,7 @@ $acc_icon = get_theme_mod('open_shop_account_mobile_disable',false);
       
      <?php endif; }
      elseif($whs_icon == false){?>
-        <a class="whishlist" href="<?php echo esc_url( WPcleverWoosw::get_url()); ?>"><i  class="fa fa-heart-o" aria-hidden="true"></i></a>
+        <a class="whishlist" href="<?php echo esc_url( WPcleverWoosw::get_url()); ?>" title="Lista de Deseos"><i  class="fa fa-heart-o" aria-hidden="true"></i></a>
     <?php  } }
 
 

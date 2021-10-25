@@ -283,7 +283,7 @@ if ( ! class_exists( 'Open_Shop_Woocommerce_Ext' ) ) :
 			$product_id = $product->get_id();
 
 			// Get label.
-			$label = __( 'Quick View', 'open-shop' );
+			$label = __( 'Vista Rápida', 'open-shop' );
 
 			$button.='<div class="thunk-quik">
 			             <div class="thunk-quickview">

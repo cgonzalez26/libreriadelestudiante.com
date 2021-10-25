@@ -22226,7 +22226,7 @@ msgstr "BIC / Swift"
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:324
 #: packages/woocommerce-admin/dist/chunks/6.js:1
 msgid "IBAN"
-msgstr "IBAN"
+msgstr "CBU / CVU"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:141
 #: packages/woocommerce-admin/dist/chunks/6.js:1

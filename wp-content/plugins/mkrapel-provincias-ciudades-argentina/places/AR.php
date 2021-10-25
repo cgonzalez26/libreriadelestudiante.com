@@ -9,7 +9,10 @@
 global $places;
 
 $places['AR'] = array(
-	'B' => array(
+	'A' => array(		
+		'Salta Capital',
+	),
+	/*'B' => array(
         'Ciudad Autónoma de Buenos Aires',
 		'Adolfo Alsina',
 		'Adolfo Gonzales Chaves',
@@ -713,5 +716,5 @@ $places['AR'] = array(
 		'Tafí Viejo',
 		'Trancas',
 		'Yerba Buena'
-	)
+	)*/
 );

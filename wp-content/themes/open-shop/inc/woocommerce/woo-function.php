@@ -311,10 +311,11 @@ return $wishlist_permalink ;
 /** My Account Menu **/
 function open_shop_account(){
  if ( is_user_logged_in() ) {
-  $return = '<a class="account" href="'.esc_url(get_permalink( get_option('woocommerce_myaccount_page_id') )).'"><i class="fa fa-user-o" aria-hidden="true"></i></a>';
+  $return = '<a class="account" href="'.esc_url(get_permalink( get_option('woocommerce_myaccount_page_id') )).'" title="Mi Cuenta"><i class="fa fa-user-o" aria-hidden="true"></i></a>';
   } 
  else {
-  $return = '<span><a href="'.esc_url(get_permalink( get_option('woocommerce_myaccount_page_id') )).'"><i class="fa fa-lock" aria-hidden="true"></i></a></span>';
+  //$return = '<span><a href="'.esc_url(get_permalink( get_option('woocommerce_myaccount_page_id') )).'"><i class="fa fa-lock" aria-hidden="true"></i></a></span>'; cristian
+  $return = '<span><a href="'.home_url().'/log-in/" title="Mi Cuenta"><i class="fa fa-lock" aria-hidden="true"></i></a></span>';
 }
  echo $return;
 }

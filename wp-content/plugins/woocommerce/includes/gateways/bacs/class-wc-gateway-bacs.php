@@ -140,7 +140,7 @@ class WC_Gateway_BACS extends WC_Payment_Gateway {
 								<th><?php esc_html_e( 'Account number', 'woocommerce' ); ?></th>
 								<th><?php esc_html_e( 'Bank name', 'woocommerce' ); ?></th>
 								<th><?php echo esc_html( $sortcode ); ?></th>
-								<th><?php esc_html_e( 'IBAN', 'woocommerce' ); ?></th>
+								<th><?php esc_html_e( 'CBU / CVU', 'woocommerce' ); ?></th>
 								<th><?php esc_html_e( 'BIC / Swift', 'woocommerce' ); ?></th>
 							</tr>
 						</thead>
@@ -321,7 +321,7 @@ class WC_Gateway_BACS extends WC_Payment_Gateway {
 							'value' => $bacs_account->sort_code,
 						),
 						'iban'           => array(
-							'label' => __( 'IBAN', 'woocommerce' ),
+							'label' => __( 'CBU / CVU', 'woocommerce' ),
 							'value' => $bacs_account->iban,
 						),
 						'bic'            => array(

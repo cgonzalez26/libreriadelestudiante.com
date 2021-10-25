@@ -153,7 +153,7 @@ abstract class AbstractBuildScratch extends AbstractTheme
 
     public function default_metabox_settings()
     {
-        $default_headline = esc_html__('Create an Account', 'wp-user-avatar');
+        $default_headline = esc_html__('Crear una Cuenta', 'wp-user-avatar');
 
         switch ($this->form_type) {
             case FR::LOGIN_TYPE:

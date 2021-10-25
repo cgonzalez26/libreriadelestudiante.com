@@ -15,7 +15,7 @@ class PerfectoLite implements RegistrationThemeInterface
     {
         return <<<CODE
 <div class="perfecto">
-    <div class="perfecto-heading">Create an Account</div>
+    <div class="perfecto-heading">Crear una Cuenta</div>
         [reg-username class="perfecto-input" placeholder="Username"]
         [reg-password class="perfecto-input" placeholder="Password"]
         [reg-email class="perfecto-input" placeholder="Email"]

@@ -407,7 +407,7 @@ $taxquery = array(
                    <div class="thunk-quickview">
                                <span class="quik-view">
                                    <a href="#" class="opn-quick-view-text" data-product_id="<?php echo esc_attr($pid); ?>">
-                                      <span><?php _e('Quick View','open-mart');?></span>
+                                      <span><?php _e('Vista Rápida','open-mart');?></span>
                                    </a>
                                 </span>
                     </div>
@@ -485,7 +485,7 @@ function open_mart_product_filter_loop($args){
                    <div class="thunk-quickview">
                                <span class="quik-view">
                                    <a href="#" class="opn-quick-view-text" data-product_id="<?php echo esc_attr($pid); ?>">
-                                      <span><?php _e('Quick View','open-mart');?></span>
+                                      <span><?php _e('Vista Rápida','open-mart');?></span>
                                    </a>
                                 </span>
                       </div>
@@ -623,7 +623,7 @@ $args = array(
                    <div class="thunk-quickview">
                                <span class="quik-view">
                                    <a href="#" class="opn-quick-view-text" data-product_id="<?php echo esc_attr($pid); ?>">
-                                      <span><?php _e('Quick View','open-mart');?></span>
+                                      <span><?php _e('Vista Rápida','open-mart');?></span>
                                    </a>
                                 </span>
                       </div>

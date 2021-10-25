@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2021-08-18 14:54+0000\n"
+"PO-Revision-Date: 2021-10-22 15:44+0000\n"
 "Last-Translator: \n"
 "Language-Team: Español de Argentina\n"
 "Language: es_AR\n"
@@ -784,7 +784,7 @@ msgstr ""
 #: src/Admin/SettingsPages/DragDropBuilder/Fields/Textarea.php:48
 #: src/Admin/SettingsPages/DragDropBuilder/Fields/Website.php:38
 msgid "Required"
-msgstr ""
+msgstr "Requerido"
 
 #: src/Admin/SettingsPages/DragDropBuilder/Fields/Bio.php:39
 #: src/Admin/SettingsPages/DragDropBuilder/Fields/CFPassword.php:49
@@ -1007,7 +1007,7 @@ msgstr ""
 #: src/Themes/DragDrop/AbstractTheme.php:162
 #: src/Themes/DragDrop/AbstractTheme.php:221 src/Widgets/TabbedWidget.php:132
 msgid "Email Address"
-msgstr ""
+msgstr "Email"
 
 #: src/Admin/SettingsPages/DragDropBuilder/Fields/FirstName.php:22
 #: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/FirstName.php:22
@@ -1018,7 +1018,7 @@ msgstr ""
 #: src/Themes/DragDrop/AbstractTheme.php:183
 #: src/Themes/DragDrop/AbstractTheme.php:224
 msgid "First Name"
-msgstr ""
+msgstr "Nombre"
 
 #: src/Admin/SettingsPages/DragDropBuilder/Fields/HTML.php:22
 #: src/Admin/SettingsPages/DragDropBuilder/Fields/HTML.php:27
@@ -1038,7 +1038,7 @@ msgstr ""
 #: src/Themes/DragDrop/AbstractTheme.php:186
 #: src/Themes/DragDrop/AbstractTheme.php:227
 msgid "Last Name"
-msgstr ""
+msgstr "Apellido"
 
 #: src/Admin/SettingsPages/DragDropBuilder/Fields/Login/RememberLogin.php:22
 msgid "Remember Login"
@@ -1203,20 +1203,20 @@ msgstr ""
 #: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/DisplayName.php:38
 #: src/Themes/DragDrop/UserProfile/DefaultTemplate.php:108
 msgid "First & Last Name"
-msgstr ""
+msgstr "Nombre y Apellido"
 
 #: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/DisplayName.php:39
 #: src/Themes/DragDrop/UserProfile/DefaultTemplate.php:109
 msgid "Last & First Name"
-msgstr ""
+msgstr "Apellido y Nombre"
 
 #: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/DisplayName.php:40
 msgid "First Name & First Initial of Last Name"
-msgstr ""
+msgstr "Nombre y Inicial del Apellido"
 
 #: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/DisplayName.php:41
 msgid "First Initial of First Name & Last Name"
-msgstr ""
+msgstr "Inicial del Nombre y Apellido"
 
 #: src/Admin/SettingsPages/DragDropBuilder/Fields/UserProfile/Username.php:22
 #: src/Admin/SettingsPages/DragDropBuilder/Fields/Username.php:22
@@ -1403,7 +1403,7 @@ msgstr ""
 #: src/Admin/SettingsPages/EmailSettings/EmailSettingsPage.php:48
 #: src/Classes/WelcomeEmailAfterSignup.php:51
 msgid "Welcome To %s"
-msgstr ""
+msgstr "Bienvenido a %s"
 
 #: src/Admin/SettingsPages/EmailSettings/EmailSettingsPage.php:50
 msgid "Email that is sent to the user upon successful registration."
@@ -1430,7 +1430,7 @@ msgstr ""
 #: src/Admin/SettingsPages/EmailSettings/EmailSettingsPage.php:56
 #: src/Admin/SettingsPages/EmailSettings/EmailSettingsPage.php:73
 msgid "Website title or name."
-msgstr ""
+msgstr "Título o nombre del sitio web. "
 
 #: src/Admin/SettingsPages/EmailSettings/EmailSettingsPage.php:57
 msgid "First Name entered by user on registration."
@@ -1451,7 +1451,7 @@ msgstr ""
 
 #: src/Admin/SettingsPages/EmailSettings/EmailSettingsPage.php:65
 msgid "Password Reset Email"
-msgstr ""
+msgstr "Email de Restablecimiento de Contraseña"
 
 #: src/Admin/SettingsPages/EmailSettings/EmailSettingsPage.php:66
 #: src/Classes/PasswordReset.php:24 src/RegisterActivation/Base.php:85
@@ -1501,7 +1501,7 @@ msgstr ""
 
 #: src/Admin/SettingsPages/EmailSettings/EmailSettingsPage.php:89
 msgid "Website name or name."
-msgstr ""
+msgstr "Nombre o nombre del sitio web."
 
 #: src/Admin/SettingsPages/EmailSettings/EmailSettingsPage.php:91
 msgid "Replace \"field_key\" with the %scustom field key%s or usermeta key."
@@ -1751,7 +1751,7 @@ msgstr ""
 #: src/Admin/SettingsPages/GeneralSettings.php:265
 #: src/Classes/AjaxHandler.php:64
 msgid "Password Reset"
-msgstr ""
+msgstr "Restablecimiento de Contraseña "
 
 #: src/Admin/SettingsPages/Forms.php:115 src/Classes/AjaxHandler.php:69
 #: src/NavigationMenuLinks/Backend.php:32
@@ -1795,7 +1795,7 @@ msgstr ""
 
 #: src/Admin/SettingsPages/GeneralSettings.php:72
 msgid "Password-reset Page"
-msgstr ""
+msgstr "Página de Restablecimiento de Contraseña"
 
 #: src/Admin/SettingsPages/GeneralSettings.php:75
 msgid ""
@@ -2823,19 +2823,21 @@ msgstr ""
 #: src/Classes/PasswordReset.php:100
 msgid "<strong>ERROR</strong>: Password reset email is disabled."
 msgstr ""
+"<strong>ERROR</strong>: el Email para restablecer la contraseña está "
+"inhabilitado."
 
 #: src/Classes/PasswordReset.php:106
 msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
-msgstr ""
+msgstr "<strong>ERROR</strong>: Ingrese un Usuario o un Email."
 
 #: src/Classes/PasswordReset.php:112
 msgid ""
 "<strong>ERROR</strong>: There is no user registered with that email address."
-msgstr ""
+msgstr "<strong>ERROR</strong>: No hay Usuario registrado con ese Email."
 
 #: src/Classes/PasswordReset.php:120
 msgid "<strong>ERROR</strong>: Invalid username or e-mail."
-msgstr ""
+msgstr "<strong>ERROR</strong>: Invalido Usuario o Email."
 
 #: src/Classes/PasswordReset.php:206 src/Themes/DragDrop/AbstractTheme.php:118
 msgid "Check your email for further instruction."
@@ -2881,7 +2883,7 @@ msgstr ""
 
 #: src/Classes/RegistrationAuth.php:233
 msgid "Email address is not valid"
-msgstr ""
+msgstr "Email no es válido"
 
 #: src/Classes/RegistrationAuth.php:237
 msgid "Passwords do not match"
@@ -2889,7 +2891,7 @@ msgstr ""
 
 #: src/Classes/RegistrationAuth.php:241
 msgid "Email addresses do not match"
-msgstr ""
+msgstr "Los Email no coinciden"
 
 #: src/Classes/RegistrationAuth.php:245
 msgid "Password is not strong"
@@ -2940,7 +2942,7 @@ msgstr ""
 
 #: src/Classes/UsernameEmailRestrictLogin.php:24
 msgid "<strong>ERROR</strong>: Invalid email address or incorrect password."
-msgstr ""
+msgstr "<strong>ERROR</strong>: Email no válido o Contraseña incorrecta."
 
 #: src/Classes/UsernameEmailRestrictLogin.php:25
 msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
@@ -3135,7 +3137,7 @@ msgstr ""
 
 #: src/ContentProtection/views/view.access-condition.php:46
 msgid "What happens when users without access tries to view content?"
-msgstr ""
+msgstr "¿Qué sucede cuando los usuarios sin acceso intentan ver contenido?"
 
 #: src/ContentProtection/views/view.access-condition.php:51
 msgid "Show access restricted message"
@@ -3179,7 +3181,7 @@ msgstr ""
 
 #: src/ContentProtection/views/view.access-condition.php:103
 msgid "Where should users be redirected to?"
-msgstr ""
+msgstr "¿A dónde deberían redirigirse los usuarios?"
 
 #: src/ContentProtection/views/view.access-condition.php:108
 msgid "Login page"
@@ -3219,11 +3221,11 @@ msgstr "%s (Dirección de Envío de WooCommerce)"
 
 #: src/Functions/GlobalFunctions.php:1269
 msgid "First and Last Names"
-msgstr ""
+msgstr "Nombres y Apellido"
 
 #: src/Functions/GlobalFunctions.php:1270
 msgid "Last and First Names"
-msgstr ""
+msgstr "Apellido y Nombres"
 
 #: src/Functions/GlobalFunctions.php:1278
 msgid "Registration Date"
@@ -4228,7 +4230,7 @@ msgstr ""
 
 #: src/Functions/data/countries.php:259
 msgid "Western Sahara"
-msgstr ""
+msgstr "Western Sahara"
 
 #: src/Functions/data/countries.php:260
 msgid "Samoa"
@@ -4295,7 +4297,7 @@ msgstr ""
 
 #: src/RegisterActivation/Base.php:116
 msgid "Default Password Reset"
-msgstr ""
+msgstr "Restablecimiento de contraseña predeterminada"
 
 #: src/RegisterActivation/Base.php:123
 msgid "Default Edit Profile"
@@ -4317,7 +4319,7 @@ msgstr ""
 #: src/ShortcodeParser/Builder/GlobalShortcodes.php:206
 #: src/Themes/DragDrop/AbstractTheme.php:117
 msgid "Reset Password"
-msgstr ""
+msgstr "Restablecer la contraseña"
 
 #: src/RegisterActivation/Base.php:176
 msgid "Member Directory"
@@ -4377,7 +4379,7 @@ msgstr ""
 
 #: src/ShortcodeParser/Builder/FieldsShortcodeCallback.php:234
 msgid "Confirm Email Address"
-msgstr ""
+msgstr "Confirmar Email"
 
 #: src/ShortcodeParser/Builder/FieldsShortcodeCallback.php:332
 msgid "Display name"
@@ -4391,7 +4393,7 @@ msgstr ""
 #: src/ShortcodeParser/Builder/FieldsShortcodeCallback.php:397
 #: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:133
 msgid "Last name"
-msgstr ""
+msgstr "Apellido"
 
 #: src/ShortcodeParser/Builder/FieldsShortcodeCallback.php:413
 msgid "Biographical Info"
@@ -4598,7 +4600,7 @@ msgstr ""
 
 #: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:123
 msgid "Email address"
-msgstr ""
+msgstr "Email"
 
 #: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:143
 msgid "Display name publicly as"
@@ -4692,7 +4694,7 @@ msgstr ""
 #: src/Themes/DragDrop/AbstractBuildScratch.php:156
 #: src/Themes/DragDrop/Registration/PerfectoLite.php:78
 msgid "Create an Account"
-msgstr ""
+msgstr "Crear una Cuenta"
 
 #: src/Themes/DragDrop/AbstractBuildScratch.php:160
 #: src/Themes/DragDrop/Login/PerfectoLite.php:76
@@ -4701,7 +4703,7 @@ msgstr "Iniciar Sesión en su Cuenta"
 
 #: src/Themes/DragDrop/AbstractBuildScratch.php:163
 msgid "Reset Your Password"
-msgstr ""
+msgstr "Restablecer su contraseña"
 
 #: src/Themes/DragDrop/AbstractBuildScratch.php:166
 msgid "Edit Your Profile"
@@ -4718,11 +4720,11 @@ msgstr "Registrarse"
 
 #: src/Themes/DragDrop/AbstractBuildScratch.php:182
 msgid "Have an account? Login"
-msgstr ""
+msgstr "¿Tienes una cuenta? Iniciar Sessión"
 
 #: src/Themes/DragDrop/AbstractBuildScratch.php:186
 msgid "Return to Login"
-msgstr ""
+msgstr "Volver al Inicio de Sesión"
 
 #: src/Themes/DragDrop/AbstractBuildScratch.php:231
 #: src/Themes/DragDrop/AbstractBuildScratch.php:374
@@ -5172,6 +5174,8 @@ msgid ""
 "What to use as display name in profile header. Select \"Hide\" to hide it "
 "from showing."
 msgstr ""
+"Qué usar como nombre para mostrar en el encabezado del perfil. Seleccione "
+"\"Ocultar\" para que no se muestre."
 
 #: src/Themes/DragDrop/UserProfile/DefaultTemplate.php:121
 msgid "Show Social Links in Header"
@@ -5310,7 +5314,7 @@ msgstr ""
 
 #: src/Widgets/Form.php:100
 msgid "Password Reset Form"
-msgstr ""
+msgstr "Formulario de restablecimiento de Contraseña"
 
 #: src/Widgets/Form.php:113
 msgid "Edit Profile Form"
@@ -5338,7 +5342,7 @@ msgstr "Usuario o E-mail:"
 
 #: src/Widgets/TabbedWidget.php:208 src/Widgets/UserPanel.php:50
 msgid "Welcome %s"
-msgstr ""
+msgstr "Bienvenido %s"
 
 #: src/Widgets/TabbedWidget.php:228
 msgid "Login / Sign up"
@@ -5391,7 +5395,7 @@ msgstr ""
 
 #: src/Widgets/TabbedWidgetDependency.php:104
 msgid "Required form field is missing"
-msgstr ""
+msgstr "Falta el campo del formulario obligatorio"
 
 #: src/Widgets/UserPanel.php:11
 msgid "ProfilePress User Panel"

@@ -36,7 +36,8 @@ return array(
 		'ZAI' => __( 'Zaire', 'woocommerce' ),
 	),
 	'AR' => array( // Argentinian provinces.
-		'C' => __( 'Ciudad Autónoma de Buenos Aires', 'woocommerce' ),
+		'A' => __( 'Salta', 'woocommerce' ),
+		/*'C' => __( 'Ciudad Autónoma de Buenos Aires', 'woocommerce' ),
 		'B' => __( 'Buenos Aires', 'woocommerce' ),
 		'K' => __( 'Catamarca', 'woocommerce' ),
 		'H' => __( 'Chaco', 'woocommerce' ),
@@ -59,7 +60,7 @@ return array(
 		'S' => __( 'Santa Fe', 'woocommerce' ),
 		'G' => __( 'Santiago del Estero', 'woocommerce' ),
 		'V' => __( 'Tierra del Fuego', 'woocommerce' ),
-		'T' => __( 'Tucumán', 'woocommerce' ),
+		'T' => __( 'Tucumán', 'woocommerce' ),*/
 	),
 	'AT' => array(),
 	'AU' => array( // Australian states.

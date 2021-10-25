@@ -31,8 +31,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 add_action('plugins_loaded','mkrapel_ar_provincias_ciudades_ar_init',1);
 add_filter('woocommerce_checkout_fields', 'mkrapel_ar_nombre_campos');
 add_filter('woocommerce_checkout_fields', 'mkrapel_ar_campos_quitados');
-add_filter('woocommerce_checkout_fields', 'mkrapel_ar_campos_class');
-add_filter('woocommerce_checkout_fields', 'mkrapel_ar_campos_orden');
+//add_filter('woocommerce_checkout_fields', 'mkrapel_ar_campos_class');
+//add_filter('woocommerce_checkout_fields', 'mkrapel_ar_campos_orden');
 
 function mkrapel_ar_smp_notices($classes, $notice){
     ?>
@@ -122,7 +122,7 @@ function mkrapel_ar_nombre_campos( $fields ) {
     $fields['billing']['billing_first_name']['placeholder'] = 'Su Nombre';
     $fields['billing']['billing_last_name']['placeholder'] = 'Sus Apellidos';
     $fields['billing']['billing_address_1']['placeholder'] = 'Nombre de la Calle, Número, Depto, Local, Oficina';
-    $fields['billing']['billing_company']['placeholder'] = 'Digite su DNI';
+    $fields['billing']['billing_company']['placeholder'] = 'Nombre de su empresa';
     $fields['billing']['billing_country']['placeholder'] = 'Seleccione País';
 	$fields['billing']['billing_state']['placeholder'] = 'Seleccione Provincia';
     $fields['billing']['billing_city']['placeholder'] = 'Seleccione Ciudad';
@@ -130,7 +130,7 @@ function mkrapel_ar_nombre_campos( $fields ) {
     $fields['billing']['billing_phone']['placeholder'] = 'Su Celular o Teléfono';
     
     $fields['billing']['billing_address_1']['label'] = 'Dirección';
-    $fields['billing']['billing_company']['label'] = 'DNI';
+    $fields['billing']['billing_company']['label'] = 'Nombre de la empresa';
     $fields['billing']['billing_country']['label'] = 'País';
     $fields['billing']['billing_state']['label'] = 'Provincia';
     $fields['billing']['billing_city']['label'] = 'Ciudad';
@@ -139,7 +139,7 @@ function mkrapel_ar_nombre_campos( $fields ) {
     $fields['shipping']['shipping_first_name']['placeholder'] = 'Su Nombre';
     $fields['shipping']['shipping_last_name']['placeholder'] = 'Sus Apellidos';
     $fields['shipping']['shipping_address_1']['placeholder'] = 'Nombre de la Calle, Número, Depto, Local, Oficina';
-    $fields['shipping']['shipping_company']['placeholder'] = 'Digite su DNI';
+    $fields['shipping']['shipping_company']['placeholder'] = 'Nombre de su empresa';
     $fields['shipping']['shipping_country']['placeholder'] = 'Seleccione País';
     $fields['shipping']['shipping_state']['placeholder'] = 'Seleccione Provincia';
     $fields['shipping']['shipping_city']['placeholder'] = 'Seleccione Ciudad';
@@ -147,7 +147,7 @@ function mkrapel_ar_nombre_campos( $fields ) {
     $fields['shipping']['shipping_phone']['placeholder'] = 'Su Celular o Teléfono';
     
     $fields['shipping']['shipping_address_1']['label'] = 'Dirección';
-    $fields['shipping']['shipping_company']['label'] = 'DNI';
+    $fields['shipping']['shipping_company']['label'] = 'Nombre de la empresa';
     $fields['shipping']['shipping_country']['label'] = 'País';
     $fields['shipping']['shipping_state']['label'] = 'Provincia';
     $fields['shipping']['shipping_city']['label'] = 'Ciudad';
@@ -166,7 +166,7 @@ function mkrapel_ar_campos_quitados( $fields ) {
 function mkrapel_ar_campos_class($fields){
     $fields['billing']['billing_first_name']['class'][0] = 'form-row-first';
     $fields['billing']['billing_last_name']['class'][0] = 'form-row-last';
-    $fields['billing']['billing_company']['class'][0] = 'form-row-first';
+    $fields['billing']['billing_company']['class'][0] = 'form-row-wide';//'form-row-first';
     $fields['billing']['billing_country']['class'][0] = 'form-row-last';
     $fields['billing']['billing_address_1']['class'][0] = 'form-row-wide';
     $fields['billing']['billing_state']['class'][0] = 'form-row-first';
@@ -176,7 +176,7 @@ function mkrapel_ar_campos_class($fields){
     
     $fields['shipping']['shipping_first_name']['class'][0] = 'form-row-first';
     $fields['shipping']['shipping_last_name']['class'][0] = 'form-row-last';
-    $fields['shipping']['shipping_company']['class'][0] = 'form-row-first';
+    $fields['shipping']['shipping_company']['class'][0] = 'form-row-wide';//'form-row-first';
     $fields['shipping']['shipping_country']['class'][0] = 'form-row-last';
     $fields['shipping']['shipping_address_1']['class'][0] = 'form-row-wide';
     $fields['shipping']['shipping_state']['class'][0] = 'form-row-first';

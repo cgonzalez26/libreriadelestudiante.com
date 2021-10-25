@@ -15,7 +15,7 @@ class Perfecto implements EditProfileThemeInterface
     {
         return <<<CODE
 <div class="perfecto">
-    <div class="perfecto-heading">Create an Account</div>
+    <div class="perfecto-heading">Crear una Cuenta</div>
         [edit-profile-username class="perfecto-input" placeholder="Username"]
         [edit-profile-password class="perfecto-input" placeholder="Password"]
         [edit-profile-email class="perfecto-input" placeholder="Email"]

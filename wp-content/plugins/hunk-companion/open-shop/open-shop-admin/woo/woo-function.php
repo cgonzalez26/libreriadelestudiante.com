@@ -190,7 +190,7 @@ $args = open_shop_product_query($term_id,$prdct_optn);
                    <div class="thunk-quickview">
                                <span class="quik-view">
                                    <a href="#" class="opn-quick-view-text" data-product_id="<?php echo esc_attr($pid); ?>">
-                                      <span><?php _e('Quick View','open-shop');?></span>
+                                      <span><?php _e('Vista Rápida','open-shop');?></span>
                                    </a>
                                 </span>
                     </div>
@@ -270,7 +270,7 @@ function open_shop_product_filter_loop($args){
                    <div class="thunk-quickview">
                                <span class="quik-view">
                                    <a href="#" class="opn-quick-view-text" data-product_id="<?php echo esc_attr($pid); ?>">
-                                      <span><?php _e('Quick View','open-shop');?></span>
+                                      <span><?php _e('Vista Rápida','open-shop');?></span>
                                    </a>
                                 </span>
                     </div>
