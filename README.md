@@ -1,0 +1,9 @@
+# libreriadelestudiante.com
+E-commerce para Ventas de Productos de una Librería desarrollada con Wordpress, PHP y Mysql
+
+![Login del Sistema](./Capturas/1-Home.JPG)
+
+
+Requerimientos:
+ - PHP version **5.6.20** o mas alto. Visitar: https://secure.php.net
+ - MySQL version **5.0** o mas alto. Visitar: https://www.mysql.com
